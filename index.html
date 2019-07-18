@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html lang="en"> <!--note language attribute-->
-    <head>
-        <meta charset="UTF-8">
-        <!--below 2 are used for search engine optimization-->
-        <meta name ="description" content="so this is what google shows when your page comes up">
-        <meta name ="keyword" content="first, second, third">
-    </head>
-    <body>
-        <a href="google.com">I go to Google Site</a>
-        <p>Super cool paragraph</p>
-    </body>
+<html lang="en">
+<!--note language attribute-->
+
+<head>
+    <!--reference to the css code that will style this page-->
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <!--below 2 are used for search engine optimization-->
+    <meta name="description" content="so this is what google shows when your page comes up">
+    <meta name="keyword" content="first, second, third">
+</head>
+
+<body>
+    <a target=" " href="http://google.com">I go to Google Site</a>
+
+    <!--horizontal rule-->
+    <hr>
+
+    <!--nav bar (google this at home)-->
+
+    <p>Super cool paragraph</p>
+
+    <!--to reference images from web url-->
+    <img src="http://photos.puppyspot.com/breeds/245/card/500000291_medium.jpg" alt="Pic of a Cute Puppies" width="500"
+        height="500">
+
+    <br>
+
+    <!--to reference images from local folder inside project folder(relative path)
+     also, you can use ../ to go one folder level higher-->
+    <img src="images/doggoz.jpg" alt="Pic of a Cute Puppies" width="500" height="500">
+
+    <br>
+
+    <a href="other-page.html">About Me</a>
+</body>
+
 </html>
